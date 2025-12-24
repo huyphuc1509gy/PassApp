@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "My Zero-Knowledge Vault",
+  "version": "1.0.0",
+  "description": "Trình quản lý mật khẩu bảo mật cao.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Mở Két Sắt"
+  },
+  "permissions": [
+    "storage" 
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*" 
+  ]
+}
