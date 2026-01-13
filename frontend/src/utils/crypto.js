@@ -59,6 +59,5 @@ export const RecoveryKey = (backupKey, pin) => {
 
 export const generateRandomPin = () => {
     const randomPin = Math.floor(100000 + Math.random() * 900000).toString();
-    // Không setPin ở đây ngay nếu luồng logic ở dưới cần dùng biến randomPin cục bộ
     return randomPin;
 };
